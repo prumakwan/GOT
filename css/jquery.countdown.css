@@ -1,0 +1,49 @@
+.countdownHolder{
+	font: 23px/0.8 'Gruppo';
+    height: 89px;
+}
+.position{
+	display: inline-block;
+	height: 1.8em;
+	position: relative;
+	width: 70px;
+	font-weight: 500;
+	font-size: 0.85em;
+}
+.digit {
+    color: #fff;
+    font-size: 130px;
+    letter-spacing: -6px;
+    left: 3px;
+    bottom: 0;
+    position: absolute;
+	font-family: 'Gruppo';
+
+}
+.countDays{
+    background:none;
+	/* display:none !important;*/ 
+}
+.countDiv0{ /* display:none !important;*/ }
+.countHours {
+    background:none;
+}
+.countDiv1{}
+.countMinutes {
+    background:none;
+}
+.countDiv2{}
+.countSeconds{
+    background:none;
+}
+.countDiv{
+	/*--display:inline-block;
+	width:16px;
+	height:1.6em;
+	position:relative;--*/
+	display:none;
+}
+.countDiv:after{
+	top:0.9em;
+}
+/*--responsive design--*/
